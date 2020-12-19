@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="17506" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17505"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="BTBrikXXL.ttf">
+            <string>BTBrikXXL</string>
+        </array>
+        <array key="Heebo-Regular.ttf">
+            <string>Heebo-Regular</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="RunPassView" customModule="ChildController" customModuleProvider="target">
+            <connections>
+                <outlet property="view" destination="iN0-l3-epB" id="SZD-dg-pv6"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="26" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="L0F-jJ-HGq">
+                    <rect key="frame" x="20" y="50" width="374" height="35"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="35" id="N7o-e4-wC0"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" name="BTBrikXXL" family="BT Brik" pointSize="24"/>
+                    <color key="textColor" red="0.73118609189999995" green="0.96093744039999995" blue="0.3174487352" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="YOUR TEXT HERE" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qAY-uL-faP">
+                    <rect key="frame" x="20" y="90" width="374" height="23.5"/>
+                    <fontDescription key="fontDescription" name="BTBrikXXL" family="BT Brik" pointSize="24"/>
+                    <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Nullam quis risus eget urna mollis ornare" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="72a-wh-VyL">
+                    <rect key="frame" x="20" y="120" width="374" height="25"/>
+                    <fontDescription key="fontDescription" name="Heebo-Regular" family="Heebo" pointSize="17"/>
+                    <color key="textColor" systemColor="systemGray5Color"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cnb-Li-M8M">
+                    <rect key="frame" x="20" y="342" width="374" height="80"/>
+                    <color key="backgroundColor" red="0.86275678870000005" green="0.86272418500000003" blue="0.86274629830000005" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="80" id="ir6-mj-DPi" customClass="NSLayoutHelper" customModule="ChildController" customModuleProvider="target">
+                            <userDefinedRuntimeAttributes>
+                                <userDefinedRuntimeAttribute type="number" keyPath="iPhone8">
+                                    <real key="value" value="60"/>
+                                </userDefinedRuntimeAttribute>
+                                <userDefinedRuntimeAttribute type="number" keyPath="iPhone11">
+                                    <real key="value" value="80"/>
+                                </userDefinedRuntimeAttribute>
+                            </userDefinedRuntimeAttributes>
+                        </constraint>
+                    </constraints>
+                    <fontDescription key="fontDescription" name="BTBrikXXL" family="BT Brik" pointSize="24"/>
+                    <state key="normal" title="BUTTON TWO">
+                        <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </state>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Gzm-du-fUJ">
+                    <rect key="frame" x="20" y="250" width="374" height="80"/>
+                    <color key="backgroundColor" red="0.27496945859999999" green="0.036563083529999998" blue="0.58827137949999997" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="80" id="6vf-a6-Vu0" customClass="NSLayoutHelper" customModule="ChildController" customModuleProvider="target">
+                            <userDefinedRuntimeAttributes>
+                                <userDefinedRuntimeAttribute type="number" keyPath="iPhone11">
+                                    <real key="value" value="80"/>
+                                </userDefinedRuntimeAttribute>
+                                <userDefinedRuntimeAttribute type="number" keyPath="iPhone8">
+                                    <real key="value" value="60"/>
+                                </userDefinedRuntimeAttribute>
+                            </userDefinedRuntimeAttributes>
+                        </constraint>
+                    </constraints>
+                    <fontDescription key="fontDescription" name="BTBrikXXL" family="BT Brik" pointSize="24"/>
+                    <state key="normal" title="BUTTON ONE">
+                        <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </state>
+                </button>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <accessibility key="accessibilityConfiguration" identifier="RunPassView"/>
+            <constraints>
+                <constraint firstItem="cnb-Li-M8M" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" constant="20" id="02R-F9-bfK"/>
+                <constraint firstItem="Gzm-du-fUJ" firstAttribute="top" secondItem="72a-wh-VyL" secondAttribute="bottom" constant="105" id="0L2-70-wYl" customClass="NSLayoutHelper" customModule="ChildController" customModuleProvider="target">
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="number" keyPath="iPhone4s">
+                            <real key="value" value="20"/>
+                        </userDefinedRuntimeAttribute>
+                        <userDefinedRuntimeAttribute type="number" keyPath="iPhoneSE">
+                            <real key="value" value="60"/>
+                        </userDefinedRuntimeAttribute>
+                        <userDefinedRuntimeAttribute type="number" keyPath="iPhone8">
+                            <real key="value" value="70"/>
+                        </userDefinedRuntimeAttribute>
+                        <userDefinedRuntimeAttribute type="number" keyPath="iPhone8Plus">
+                            <real key="value" value="75"/>
+                        </userDefinedRuntimeAttribute>
+                        <userDefinedRuntimeAttribute type="number" keyPath="iPhone11Pro">
+                            <real key="value" value="105"/>
+                        </userDefinedRuntimeAttribute>
+                        <userDefinedRuntimeAttribute type="number" keyPath="iPhone11">
+                            <real key="value" value="105"/>
+                        </userDefinedRuntimeAttribute>
+                        <userDefinedRuntimeAttribute type="number" keyPath="iPhone11Max">
+                            <real key="value" value="125"/>
+                        </userDefinedRuntimeAttribute>
+                    </userDefinedRuntimeAttributes>
+                </constraint>
+                <constraint firstItem="qAY-uL-faP" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" constant="20" id="1Nr-Ep-cAS"/>
+                <constraint firstItem="Gzm-du-fUJ" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" constant="20" id="3B2-aC-ciN"/>
+                <constraint firstItem="72a-wh-VyL" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" constant="20" id="Buu-hY-vDR"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="72a-wh-VyL" secondAttribute="trailing" constant="20" id="DYc-RT-nuO"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="cnb-Li-M8M" secondAttribute="trailing" constant="20" id="NMK-AP-eiD"/>
+                <constraint firstItem="L0F-jJ-HGq" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" constant="20" id="Rc0-58-WTz"/>
+                <constraint firstItem="72a-wh-VyL" firstAttribute="top" secondItem="qAY-uL-faP" secondAttribute="bottom" constant="6.5" id="ZYl-eL-WRG"/>
+                <constraint firstItem="L0F-jJ-HGq" firstAttribute="top" secondItem="vUN-kp-3ea" secondAttribute="top" constant="6" id="aBZ-3r-pJI"/>
+                <constraint firstItem="cnb-Li-M8M" firstAttribute="top" secondItem="Gzm-du-fUJ" secondAttribute="bottom" constant="12" id="lNw-BQ-AdV"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="qAY-uL-faP" secondAttribute="trailing" constant="20" id="qaV-KU-95q"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="Gzm-du-fUJ" secondAttribute="trailing" constant="20" id="uJq-qJ-odR"/>
+                <constraint firstItem="qAY-uL-faP" firstAttribute="top" secondItem="L0F-jJ-HGq" secondAttribute="bottom" constant="5" id="vAp-fr-k2T"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="L0F-jJ-HGq" secondAttribute="trailing" constant="20" id="yZ4-F6-nzc"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="95.652173913043484" y="-65.290178571428569"/>
+        </view>
+    </objects>
+    <resources>
+        <systemColor name="systemGray5Color">
+            <color red="0.89803921568627454" green="0.89803921568627454" blue="0.91764705882352937" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>
