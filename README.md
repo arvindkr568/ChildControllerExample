@@ -1,1 +1,3 @@
 # ChildControllerExample
+
+![Screenshot](example.png)
